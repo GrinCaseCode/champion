@@ -153,7 +153,7 @@ $('.tabs li a').click(function(event) {
 	//Документация:
 	//http://api.jquery.com/scrolltop/
 	//http://api.jquery.com/animate/
-	$("#top").click(function () {
+	$(".btn_top").click(function () {
 		$("body, html").animate({
 			scrollTop: 0
 		}, 800);
