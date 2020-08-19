@@ -647,6 +647,13 @@ background-color: #f8f8f8;
 	font-size: 14px;
 	border: none;
 	color: #000;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.item-form input:hover,
+.item-form input:focus {
+	box-shadow: inset 0 2px 5px rgba(170, 185, 192, 0.75);
 }
 .item-form {
 	position: relative;
