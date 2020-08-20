@@ -604,7 +604,20 @@
     margin: 0;
    }
 }
-
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+.header.fixed .menu {
+    font-size: 13px;
+}
+.header.fixed .menu li::after {
+  display: none;
+}
+.header.fixed .menu li,
+.header.fixed .menu li a {
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+} 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
