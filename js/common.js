@@ -41,7 +41,7 @@ $(".header__bottom a").click(function() {
 
 	//плавный скролл
 	$(".menu a").mPageScroll2id({
-		offset: 110
+		offset: 30
 	});
 
 	/*высота блока по экрану*/
